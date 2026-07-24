@@ -75,3 +75,67 @@ Recursive Feature Elimination (RFE) is a wrapper-based feature selection techniq
 
 Feature Importance is an embedded feature selection method that measures the contribution of each feature to a machine learning model's predictions. Algorithms such as Random Forest calculate importance scores for all features. In my **Student Lifestyle and Stress Prediction** project, Feature Importance helped identify the top lifestyle factors influencing stress levels, and these features were used to build the final prediction model.
 
+
+## Day 17
+*Date:* 22 July 2026
+
+### Topics Covered
+- Wrapper Method
+- Validation Test
+- Forward Selection
+- Backward Selection
+- RFECV
+
+### Wrapper Method
+
+The Wrapper Method is a feature selection technique that evaluates different combinations of features by training and testing a machine learning model. It selects the subset of features that gives the best prediction performance. In my Student Lifestyle Stress Prediction project, I used wrapper methods such as Forward Selection, Backward Selection, and RFECV to identify the most relevant features for predicting students' stress levels and to improve the model's efficiency.
+
+### Validation Set (Validation Test)
+
+A validation set is a portion of the dataset used during model development to evaluate and fine-tune the model before testing it on unseen data. It helps in selecting the best model, tuning hyperparameters, and reducing the risk of overfitting. In my Student Lifestyle Stress Prediction project, the validation process helped compare different machine learning models and feature selection techniques to identify the model that performed best before final evaluation.
+
+### Forward Selection
+
+Forward Selection is a wrapper-based feature selection technique that starts with no features and adds one feature at a time based on model performance. At each step, the feature that improves the model the most is selected until the desired number of features is reached. In my **Student Lifestyle Stress Prediction** project, I applied Forward Selection to identify the most important lifestyle-related features for predicting students' stress levels.
+
+### Backward Selection
+
+Backward Selection is a wrapper-based feature selection technique that starts with all available features and removes the least important feature one by one. The process continues until the optimal subset of features remains. In my project, Backward Selection helped eliminate less relevant features while maintaining good prediction performance.
+
+### RFECV (Recursive Feature Elimination with Cross-Validation)
+
+RFECV is an advanced wrapper method that recursively removes the least important features while using cross-validation to determine the optimal number of features automatically. It selects the feature subset that provides the best model performance. In my project, RFECV selected the most suitable features for predicting student stress and helped compare model accuracy before and after feature selection.
+
+### **Key Learning**
+
+* Understood the working of wrapper-based feature selection techniques.
+* Applied Forward Selection, Backward Selection, and RFECV on the **Student Lifestyle Stress Prediction** dataset.
+* Compared the features selected by different wrapper methods.
+* Evaluated model performance before and after feature selection.
+* Learned that RFECV automatically determines the optimal number of features using cross-validation.
+* Identified the most relevant features to improve the efficiency and performance of the machine learning model.
+
+## Day 18
+*Date:* 23 July 2026
+
+### Topics Covered
+- Parameters
+- Hyperparameters
+
+
+### **Parameters**
+
+Parameters are the values that a machine learning model learns automatically from the training data during the training process. They define how the model makes predictions and are updated to minimize prediction errors. In my **Student Lifestyle Stress Prediction** project, model parameters were learned from students' lifestyle features to predict their stress levels.
+
+### **Hyperparameters**
+
+Hyperparameters are the settings that are defined before training a machine learning model and control how the model learns from the data. They are not learned automatically and must be chosen or tuned by the user. In my project, hyperparameters such as the number of trees in Random Forest (`n_estimators`) and the number of neighbors in KNN (`n_neighbors`) influenced the model's performance and prediction accuracy.
+
+
+### **Key Learning**
+
+* Understood the difference between parameters and hyperparameters.
+* Learned that parameters are learned automatically during model training.
+* Explored how hyperparameters are set before training and affect model performance.
+* Recognized the importance of selecting appropriate hyperparameters to improve prediction accuracy in the **Student Lifestyle Stress Prediction** project.
+
